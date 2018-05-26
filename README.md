@@ -1,7 +1,7 @@
 Alavetelitheme
 ==============
 
-cc
+no guido
 
 This is a "hello world" type theme package for Alaveteli.
 
