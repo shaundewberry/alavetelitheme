@@ -1,7 +1,8 @@
-Alavetelitheme
+Okapitheme
 ==============
 
-This is a "hello world" type theme package for Alaveteli.
+This is a theme customised for a South African context as public on okapi.org.za
+
 
 The intention is to support simple overlaying of templates and
 resources without the need to touch the core Alaveteli software.
