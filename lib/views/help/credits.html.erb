@@ -4,60 +4,38 @@
 <div id="left_column_flip" class="left_column_flip">
 <h1 id="credits"><%= @title %> <a href="#credits">#</a> </h1>
 
-<p>What made OKAPI possible? #
+<p>What made <%= site_name %> possible? #
 Originally brought to life by The Freedom of Information Foundation NPC
-okapi.org.za runs <a href="http://alaveteli.org/">Alaveteli</a>, software created and released open-source by <a href="https://www.mysociety.org">mySociety</a>.
-The Freedom of Information Foundation NPC supports the hosting of okapi.org.za
+o<%= site_name %> runs <a href="http://alaveteli.org/">Alaveteli</a>, software created and released open-source by <a href="https://www.mysociety.org">mySociety</a>.
+The Freedom of Information Foundation NPC supports the hosting of <%= site_name %>
  
 <dl>
-<dt id="FOIFconnection">What relationship does OKAPI have with the The Freedom of Information Foundation NPC? </dt>
- <dd>The Freedom of Information Foundation NPC is providing hosting and technical support for the operation of the Okapi.org.za website. The The Freedom of Information Foundation has offered this support because it believes that access to information is an important institution and that the Okapi website is a valuable public service.
+<dt id="FOIFconnection">What relationship does <%= site_name %> have with the The Freedom of Information Foundation NPC? </dt>
+ <dd>The Freedom of Information Foundation NPC is providing hosting and technical support for the operation of the <%= site_name %> website. The The Freedom of Information Foundation has offered this support because it believes that access to information is an important institution and that the Okapi website is a valuable public service.
  </dd>
 
 <dt id="helpus">Can I help out?<a href="#helpus">#</a></dt>
 <dd>
  Yes please! We're built out of our supporters and volunteers.
- Details can be found at <a href="https://blog.okapi.org.za">blog.okapi.org.za</a>
-  <dt id="volunteer">Become a volunteer <a href="#volunteer">#</a></dt>
+ <ul> 
+  <li>Details can be found at <a href="https://blog.okapi.org.za">blog.okapi.org.za</a></li>
+  <li><dt id="volunteer">Become a volunteer <a href="#volunteer">#</a></dt></li>
+  </ul>
   <dd>
-    <p>If you have a passion for transparency, a great deal of patience, and a bit of spare time, consider becoming one of <%= site_name %>'s volunteer admin team. Work includes user support, helping to resolve legal issues, and shaping the site’s direction, and is primarily managed via email.</p>
-    <p>In the first instance, <%= link_to 'get in touch', help_contact_path %>.</p>
+    <p><%= site_name %> can be also be contacted at <%= link_to 'get in touch', help_contact_path %>.</p>
   </dd>
-
-  <dt id="donate">Make a donation <a href="#donate">#</a></dt>
   <dd>
-    <p>mySociety, Alaveteli's parent organisation, is a charity. WhatDoTheyKnow, our most-visited Alaveteli site, costs thousands of pounds each year, for overheads such as servers, maintenance and development.</p>
+ </dd>
 
-    <p>Your contributions, however small, really help. <a href="https://www.mysociety.org/donate/">Donate here</a>.</p>
-  </dd>
-
-  <dt id="classification">Sort things out <a href="#classification">#</a></dt>
   <dd>
-    <p>Admin can be fun! Help people find successful requests, and monitor performance of authorities, by <a href="<%= categorise_play_path %>">playing the categorisation game</a>.</p>
+    <li>Help people find successful requests, and monitor performance of government and business, by <a href="<%= categorise_play_path %>">playing the categorisation game</a>.</li>
+    <li>Find out PAIA email addresses of <a href="<%= help_requesting_path(:anchor => 'missing_bodies') %>">organisations that we're missing</a>.</li>
+    <li>Write a blog post about either FYI or an interesting request that you've found. Post about it on a forum that you frequent. Tell friends about it.</li>
+    <li>If you're a programmer, get the source code for our parent project, <a href="http://alaveteli.org/">Alaveteli</a> and tell us about patches we can pull. It's made in Ruby on Rails.</p>
+    <li>Get involved with <%= site_name %> details can be found at <a href="https://blog.okapi.org.za">blog.okapi.org.za</a></li> 
+ </dd>
 
-    <p>Or be a dear, and find out FOI email addresses of <a href="<%= help_requesting_path(:anchor => 'missing_bodies') %>">authorities that we're missing</a>.</p>
-  </dd>
-
-  <dt id="promote">Spread the word <a href="#promote">#</a></dt>
-  <dd>
-    <p>We don’t have a massive marketing budget, so word of mouth really helps.</p>
-      <ul>
-        <li>Write a blog post about <%= site_name %>, or an interesting request that you've found.</li>
-        <li>Post about the site, and what you can do with it, on a forum that you frequent.</li>
-        <li>Tell friends about it.</li>
-        <li>Let your local newspaper or community magazine know how useful we are.</li>
-        <li>Give a talk.</li>
-        <li><%= mail_to 'hello@mysociety.org', 'Ask us for leaflets', :encode => "javascript" %> to leave in your local library or coffee shop.</li>
-      </ul>
-  </dd>
-</dd>
-
-  <dt id="code">Improve our code <a href="#code">#</a></dt>
-  <dd>
-    <p>Seen something that could work better? If you're a programmer, <a href="https://github.com/mysociety/alaveteli/">get the source code</a> for our parent project, <a href="http://alaveteli.org/">Alaveteli</a> and send us a pull request. <%= site_name %> is coded in <a href="http://rubyonrails.org/">Ruby on Rails</a>.</p>
-  </dd>
 </dl>
-
 <div id="hash_link_padding"></div>
 
 </div>
