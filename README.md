@@ -1,6 +1,8 @@
 Alavetelitheme
 ==============
 
+cc
+
 This is a "hello world" type theme package for Alaveteli.
 
 The intention is to support simple overlaying of templates and
