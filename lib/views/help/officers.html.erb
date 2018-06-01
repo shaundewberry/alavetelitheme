@@ -1,4 +1,4 @@
-<% @title = "FOI officer questions" %>
+<% @title = "Information Officer (PAIA and POPIA Officer) questions" %>
 
 <%= render :partial => 'sidebar' %>
 
@@ -7,12 +7,12 @@
 
   <dl>
 
-    <dt id="top">I just got here from bottom of an FOI request, what is going on? <a href="#top">#</a> </dt>
+    <dt id="top">I just got here from bottom of an PAIA request, what is going on? <a href="#top">#</a> </dt>
 
     <dd><p><%= site_name %> is a service run by a charity. It helps ordinary members
-        of the public make FOI requests, and easily track and share the responses.</p>
+        of the public make PAIA requests, and easily track and share the responses.</p>
 
-      <p>The FOI request you received was made by someone using <%= site_name %>. You can
+      <p>The PAIA request you received was made by someone using <%= site_name %>. You can
         simply reply to the request as you would any other request from an individual.
         The only difference is that your response will be automatically published on
         the Internet.
@@ -25,16 +25,16 @@
         any requests made using the site.
 
       <p>Finally, we welcome comments and
-        thoughts from FOI officers, please <a href="<%= help_contact_path %>">get in touch</a>.
+        thoughts from PAIA officers, please <a href="<%= help_contact_path %>">get in touch</a>.
       </p>
     </dd>
 
-    <dt id="responses">Why are you publishing responses to FOI requests? <a href="#responses">#</a> </dt>
+    <dt id="responses">Why are you publishing responses to PAIA requests? <a href="#responses">#</a> </dt>
 
     <dd>We think there are lots of benefits. Most importantly it will encourage the
       public to be more interested and involved in the work of government. We
       also hope that it will reduce the number of duplicate requests on any
-      subject that a public body will receive. Given that Freedom of Information
+      subject that a public body will receive. Given that Promotion of Access to Information
       responses contain public information, which anybody could easily request
       again from the public authority, we think there should be no reason not to
       publish it widely.
@@ -48,20 +48,13 @@
       unique email address that we then verify. You can search this site and
       find a page listing all requests that each person has made.
     </dd>
-
-    <dt id="email_only">An email isn't a sufficient address for an FOI request! <a href="#email_only">#</a> </dt>
-
-    <dd>Yes it is. In the UK, this
-      <a href="https://www.whatdotheyknow.com/request/1142/response/2894/attach/5/20080806100741260.pdf">letter from the ICO to Rother District Council</a> gives guidance on the matter, specifically
-      in the context of requests made via WhatDoTheyKnow, a similar site to <%= site_name %>.
-    </dd>
-
+    
     <dt id="vexatious">Aren't you making lots of vexatious requests? <a href="#vexatious">#</a> </dt>
 
     <dd><p><%= site_name %> is not making any requests. We are sending requests on
         behalf of our users, who are real people making the requests. </p>
       <p>Look at it like this - if lots of different people made requests from
-        different Hotmail email addresses, then you would not think that Microsoft were
+        different Gmail email addresses, then you would not think that Google were
         making vexatious requests. It is exactly the same if lots of requests are made
         via <%= site_name %>. Moreover, since all requests are public it is much easier
         for you to see if one of our users is making vexatious requests. </p>
@@ -71,13 +64,13 @@
     <dt id="spam_problems">I can see a request on <%= site_name %>, but we never got it by email!<a href="#spam_problems">#</a> </dt>
 
     <dd><p>If a request appears on the site, then we have attempted to send it to
-        the authority by email. Any delivery failure messages will automatically
-        appear on the site. You can check the address we're using with the "View FOI
-        email address" link which appears on the page for the authority. <a
+        the organisation by email. Any delivery failure messages will automatically
+        appear on the site. You can check the address we're using with the "View PAIA
+        email address" link which appears on the page for the organisation. <a
         href="<%= help_contact_path %>">Contact us</a> if there is a better address we can
         use.</p>
       <p>Requests are sometimes not delivered because they are quietly removed by
-        "spam filters" in the IT department of the authority. Authorities can make
+        "spam filters" in the IT department of the orgnisation. Organisations can make
         sure this doesn't happen by asking their IT departments to "whitelist"
         any email from <strong>@<%= AlaveteliConfiguration::incoming_email_domain %></strong>.
         If you <a href="<%= help_contact_path %>">ask us</a> we will resend any request,
@@ -94,21 +87,19 @@
 
     <dd>
 
-      <p>The Freedom of Information Act says:</p>
+      <p>The Promotion of Access to Information Act (PAIA)says:</p>
 
-      <blockquote><p>A public authority must comply with section 1(1) <strong>promptly</strong> and
-      in any event not later than the twentieth working day following the date of
-      receipt.</p></blockquote>
+      <blockquote><p>A request...must, as soon as reasonably possible, but in any event  <strong>promptly</strong> within 30 days, after the request is received....</p></blockquote>
 
       <p>The nerdy detail of exactly how weekends are counted, and what happens if
         the request arrives out of office hours, is just that - detail. What matters
-        here is that the law says authorities must respond <strong>promptly</strong>.</p>
+        here is that the law says organisations must respond <strong>promptly</strong>.</p>
 
       <p>If you've got a good reason why the request is going to take a while to
         process, requesters find it really helpful if you can send a quick email with a
         sentence or two saying what is happening. </p>
 
-      <p>FOI officers often have to do a lot of <strong>hard work</strong> to answer
+      <p>Information Officers often have to do a lot of <strong>hard work</strong> to answer
         requests, and this is hidden from the public. We think it would help everyone
         to have more of that complexity visible.</p>
 
@@ -118,8 +109,8 @@
 
     <dd>
 
-      <p>Please read the answer to the previous question first. Legally, authorities
-        must respond <strong>promptly</strong> to FOI requests. If they fail to do that,
+      <p>Please read the answer to the previous question first. Legally, organisations
+        must respond <strong>promptly</strong> to PAIA requests. If they fail to do that,
         it is best if they show the hard work they are doing by explaining what is
         taking the extra time to do.
       </p>
@@ -135,8 +126,7 @@
           <strong><%= AlaveteliConfiguration::reply_late_after_days %> working days</strong>.</li>
 
         <li>If the day the request email was delivered was a non-working day, we count
-          the next working day as "day one". Delivery is delivery, even if it happened on
-          the weekend. Some authorities disagree with this, our lawyer disagrees with them. </li>
+          the next working day as "day one". </li>
 
         <li>Requesters are encouraged to mark when they have <strong>clarified</strong>
           their request so the clock resets, but sometimes they get this wrong. If you
@@ -144,7 +134,7 @@
       </ul>
 
       <p>The date thus calculated is shown on requests with the text "By law,
-        Liverpool City Council should normally have responded by...".
+        XYZ Muncipality/Company should normally have responded by...".
       </p>
 
     </dd>
@@ -157,9 +147,9 @@
       is too big for even that (more than, say, 50Mb).
     </dd>
 
-    <dt id="names">Why do you publish the names of civil servants and the text of emails? <a href="#names">#</a> </dt>
+    <dt id="names">Why do you publish the names of people and the text of emails? <a href="#names">#</a> </dt>
 
-    <dd>We consider what officers or servants do in the course of their employment
+    <dd>We consider what information officers do in the course of their employment
       to be public information. We will only remove content in exceptional
       circumstances, see our <a href="<%= help_privacy_path(:anchor => 'takedown') %>">take down policy</a>.
     </dd>
@@ -181,19 +171,17 @@
 
     <dt id="copyright"><a id="commercial"></a>What is your policy on copyright of documents?<a href="#copyright">#</a> </dt>
 
-    <dd>Our Freedom of Information law is "applicant blind", so anyone in the
-      world can request the same document and get a copy of it.
-
+    <dd>
       If you think our making a document available on the internet infringes your
       copyright, you may <a href="<%= help_contact_path %>">contact us</a> and ask us
-      to take it down.  However, to save tax payers' money by preventing duplicate
+      to take it down.  However, to save tax payers'/customers money by preventing duplicate
       requests, and for good public relations, we'd advise you not to do that.
     </dd>
 
     <dt id="allowed_responses">My response to an old request on <%= site_name %> has been bounced!<a href="#allowed_responses">#</a> </dt>
       <dd>After six months of inactivity, <%= site_name %> limits who can respond to a request to stop
       spammers targeting old requests. At that point, the request can only be responded to by someone who's
-      from the authority. After twelve months, the request is closed to responses from anyone. If you need an
+      from the organisation. After twelve months, the request is closed to responses from anyone. If you need an
       old request to be re-opened so that you can respond to it, please <a href="<%= help_contact_path %>">
       contact us</a>.
       </dd>
