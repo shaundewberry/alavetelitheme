@@ -7,10 +7,10 @@
 <div id="contact_preamble" class="contact_preamble">
 
   <% if !flash[:notice] %>
-    <h2>Contact an authority to get official information</h2>
+    <h2>Contact an organisation to get official information</h2>
     <ul>
       <li><a href="<%= new_request_path %>">Go here</a> to make a request, in public, for information
-        from public authorities.</li>
+        from an organisation.</li>
 
       <li>
         Asking for private information about yourself?
@@ -34,7 +34,7 @@
                             href="mailto:<%=@contact_email%>"><%=@contact_email%></a>
       </li>
 
-      <li>We are a <strong>charity</strong> and not part of the
+      <li>We are a <strong>Non Profit</strong> and not part of the
         Government.</li>
     </ul>
   <% end %>
@@ -87,13 +87,13 @@
 
   <p class="form_note">
     We can only help you with <strong>technical problems</strong>, or questions
-    about Freedom of Information.
+    about PAIA.
   </p>
 
 
   <div class="form_button">
     <%= hidden_field_tag(:submitted_contact_form, 1) %>
-    <%= submit_tag "Send message to the charity", :data => { :disable_with => "Sending..." } %>
+    <%= submit_tag "Send message to the Non Profit", :data => { :disable_with => "Sending..." } %>
     &lt;-- we run this site, not the Government!
   </div>
 
