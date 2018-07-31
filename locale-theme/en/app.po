@@ -294,7 +294,7 @@ msgid "A one line summary of the information you are requesting, e.g."
 msgstr "A one line summary of the information you are requesting, e.g."
 
 msgid "A public authority"
-msgstr "A public authority"
+msgstr "A public body"
 
 msgid "A response will be sent <strong>by post</strong>"
 msgstr "A response will be sent <strong>by post</strong>"
@@ -315,7 +315,7 @@ msgid "About you:"
 msgstr "About you:"
 
 msgid "About {{count}} FOI requests found"
-msgstr "About {{count}} FOI requests found"
+msgstr "About {{count}} PAIA requests found"
 
 msgid "Act on what you've learnt"
 msgstr "Act on what you've learnt"
@@ -348,10 +348,10 @@ msgid "Add an annotation to your request with choice quotes, or a <strong>summar
 msgstr "Add an annotation to your request with choice quotes, or\\n                a <strong>summary of the response</strong>."
 
 msgid "Add authority - {{public_body_name}}"
-msgstr "Add authority - {{public_body_name}}"
+msgstr "Add public body - {{public_body_name}}"
 
 msgid "Add the authority:"
-msgstr "Add the authority:"
+msgstr "Add the public body:"
 
 msgid "Administration URL:"
 msgstr "Administration URL:"
@@ -489,7 +489,7 @@ msgid "Applies to"
 msgstr "Applies to"
 
 msgid "Are we missing a public authority?"
-msgstr "Are we missing a public authority?"
+msgstr "Are we missing a public body?"
 
 msgid "Are you sure you want to disable two factor authentication?"
 msgstr "Are you sure you want to disable two factor authentication?"
@@ -507,10 +507,10 @@ msgid "Ask for <strong>specific</strong> documents or information, this site is 
 msgstr "Ask for <strong>specific</strong> documents or information, this site is not suitable for general enquiries."
 
 msgid "Ask us to add an authority"
-msgstr "Ask us to add an authority"
+msgstr "Ask us to add a public body"
 
 msgid "Ask us to update FOI email"
-msgstr "Ask us to update FOI email"
+msgstr "Ask us to update PAIA email"
 
 msgid "Ask us to update the email address for {{public_body_name}}"
 msgstr "Ask us to update the email address for {{public_body_name}}"
@@ -684,10 +684,10 @@ msgid "Clarification sent to {{public_body_name}} by {{info_request_user}} on {{
 msgstr "Clarification sent to {{public_body_name}} by {{info_request_user}} on {{date}}."
 
 msgid "Clarify your FOI request - {{request_title}}"
-msgstr "Clarify your FOI request - {{request_title}}"
+msgstr "Clarify your PAIA request - {{request_title}}"
 
 msgid "Classify an FOI response from {{authority_name}}"
-msgstr "Classify an FOI response from {{authority_name}}"
+msgstr "Classify a PAIA response from {{authority_name}}"
 
 msgid "Clear photo"
 msgstr "Clear photo"
@@ -729,7 +729,7 @@ msgid "Confirm password:"
 msgstr "Confirm password:"
 
 msgid "Confirm you want to follow all successful FOI requests"
-msgstr "Confirm you want to follow all successful FOI requests"
+msgstr "Confirm you want to follow all successful PAIA requests"
 
 msgid "Confirm you want to follow new requests"
 msgstr "Confirm you want to follow new requests"
