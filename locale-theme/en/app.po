@@ -94,10 +94,10 @@ msgid " when you send this message."
 msgstr " when you send this message."
 
 msgid "'Crime statistics by ward level for Wales'"
-msgstr "'Crime statistics by ward level for Wales'"
+msgstr "'Crime statistics by ward level for Johannesburg'"
 
 msgid "'Pollution levels over time for the River Tyne'"
-msgstr "'Pollution levels over time for the River Tyne'"
+msgstr "'Pollution levels over time for the Augrabies River'"
 
 msgid "'{{authority_name}}' is defunct"
 msgstr "'{{authority_name}}' is defunct"
@@ -133,10 +133,10 @@ msgid "<a href=\"{{browse_url}}\">Browse all</a> or <a href=\"{{add_url}}\">ask 
 msgstr "<a href=\"{{browse_url}}\">Browse all</a> or <a href=\"{{add_url}}\">ask us to add one</a>."
 
 msgid "<a href=\"{{new_request_link}}\">Make a new EIR request</a> to {{public_body_name}}"
-msgstr "<a href=\"{{new_request_link}}\">Make a new EIR request</a> to {{public_body_name}}"
+msgstr "<a href=\"{{new_request_link}}\">Make a new PAIA request</a> to {{public_body_name}}"
 
 msgid "<a href=\"{{new_request_link}}\">Make a new FOI request</a> to {{public_body_name}}"
-msgstr "<a href=\"{{new_request_link}}\">Make a new FOI request</a> to {{public_body_name}}"
+msgstr "<a href=\"{{new_request_link}}\">Make a new PAIA request</a> to {{public_body_name}}"
 
 msgid "<a href=\"{{url}}\">Do you want to request private information about yourself?</a>"
 msgstr "<a href=\"{{url}}\">Do you want to request private information about yourself?</a>"
