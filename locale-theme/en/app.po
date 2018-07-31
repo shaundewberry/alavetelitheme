@@ -3580,13 +3580,13 @@ msgid "Update the status of your request to {{authority_name}}"
 msgstr "Update the status of your request to {{authority_name}}"
 
 msgid "Upload FOI response"
-msgstr "Upload FOI response"
+msgstr "Upload PAIA response"
 
 msgid "Use OR (in capital letters) where you don't mind which word,  e.g. <strong><code>commons OR lords</code></strong>"
 msgstr "Use OR (in capital letters) where you don't mind which word,  e.g. <strong><code>commons OR lords</code></strong>"
 
 msgid "Use quotes when you want to find an exact phrase, e.g. <strong><code>\"Liverpool City Council\"</code></strong>"
-msgstr "Use quotes when you want to find an exact phrase, e.g. <strong><code>\"Liverpool City Council\"</code></strong>"
+msgstr "Use quotes when you want to find an exact phrase, e.g. <strong><code>\"Buffalo City Metropolitan Municipality\"</code></strong>"
 
 msgid "Use this site to make your request for information – we'll show you how."
 msgstr "Use this site to make your request for information – we'll show you how."
