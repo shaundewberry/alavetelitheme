@@ -4689,8 +4689,8 @@ msgstr "{{site_name}} blog and tweets"
 
 msgid "{{site_name}} covers requests to {{number_of_authorities}} authority, including:"
 msgid_plural "{{site_name}} covers requests to {{number_of_authorities}} authorities, including:"
-msgstr[0] "{{site_name}} covers requests to {{number_of_authorities}} authority, including:"
-msgstr[1] "{{site_name}} covers requests to {{number_of_authorities}} authorities, including:"
+msgstr[0] "{{site_name}} covers requests to {{number_of_authorities}} public body, including:"
+msgstr[1] "{{site_name}} covers requests to {{number_of_authorities}} public bodies, including:"
 
 msgid "{{site_name}} sends new requests to <strong>{{request_email}}</strong> for this authority."
 msgstr "{{site_name}} sends new requests to <strong>{{request_email}}</strong> for this authority."
@@ -4704,7 +4704,7 @@ msgid "{{thing_changed}} was changed from <code>{{from_value}}</code> to <code>{
 msgstr "{{thing_changed}} was changed from <code>{{from_value}}</code> to <code>{{to_value}}</code>"
 
 msgid "{{title}} - a Freedom of Information request to {{public_body}}"
-msgstr "{{title}} - a Freedom of Information request to {{public_body}}"
+msgstr "{{title}} - an Access to Information request to {{public_body}}"
 
 msgid "{{title}} - a batch request"
 msgstr "{{title}} - a batch request"
@@ -4713,7 +4713,7 @@ msgid "{{user_name}} (Account suspended)"
 msgstr "{{user_name}} (Account suspended)"
 
 msgid "{{user_name}} - Freedom of Information requests"
-msgstr "{{user_name}} - Freedom of Information requests"
+msgstr "{{user_name}} - Access to Information requests"
 
 msgid "{{user_name}} - Two Factor Authentication"
 msgstr "{{user_name}} - Two Factor Authentication"
@@ -4746,7 +4746,7 @@ msgid "{{user_name}} sent a request to {{public_body}}"
 msgstr "{{user_name}} sent a request to {{public_body}}"
 
 msgid "{{user_name}} would like a new authority added to {{site_name}}"
-msgstr "{{user_name}} would like a new authority added to {{site_name}}"
+msgstr "{{user_name}} would like a new public body added to {{site_name}}"
 
 msgid "{{user_name}} would like the email address for {{public_body_name}} to be updated"
 msgstr "{{user_name}} would like the email address for {{public_body_name}} to be updated"
