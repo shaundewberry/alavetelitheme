@@ -5,14 +5,14 @@
   <h1 id="making_requests"><%= @title %> <a href="#making_requests">#</a></h1>
   <dl>
 
-    <dt id="which_authority">I'm not sure which organisation to make my request to, how can I find out? <a href="#which_authority">#</a> </dt>
+    <dt id="which_authority">I'm not sure which public body to make my request to, how can I find out? <a href="#which_authority">#</a> </dt>
 
     <dd>
       <p>It can be hard to work out who holds the information that you want. Here are a few tips:
       </p>
       <ul>
         <li>Browse or search <%= site_name %> looking for similar requests to yours.</li>
-        <li>When you've found an organisation you think might have the information, use
+        <li>When you've found a public body you think might have the information, use
           the "home page" link on the right hand side of their page to check what they do
           on their website.</li>
         <li>Contact the organisation by phone or email to ask if they hold the kind of
@@ -27,7 +27,7 @@
 
 
 
-    <dt id="missing_body">You're missing the organisation that I want to request from! <a href="#missing_body">#</a> </dt>
+    <dt id="missing_body">You're missing the public body that I want to request from! <a href="#missing_body">#</a> </dt>
 
     <dd>
       <p>Please <a href="<%= new_change_request_path %>">contact us</a> with the name of the organisation and,
@@ -84,8 +84,7 @@
 
       <p>
         If you want information to support an argument or campaign, PAIA is a powerful tool. 
-        Although you may not use this site to run your campaign, we encourage you to use it 
-        to get the information you need. We also encourage to run your campaign elsewhere 
+        We encourage you to use it to get the information you need. We also encourage to run your campaign elsewhere 
         - one effective and very easy way is to <%= link_to 'start your own blog',
         "http://wordpress.com/"%>.
         <% if AlaveteliConfiguration::enable_annotations %>
@@ -112,12 +111,6 @@
         <a
         href="https://blog.okapi.org.za/why-you-should-donate"/>Donate</a> 
        
-      </p>
-
-      <p>Sometimes an organisation will refuse your request, saying that the cost
-        of handling it is a lot of money. At this point you can refine your
-        request. e.g. it would be much cheaper for an organisation to tell you the amount
-        spent on marshmallows in the past year than in the past ten years.
       </p>
 
     </dd>
@@ -200,7 +193,7 @@
         to read.  </p>
       <p>You should contact the organisation directly if you would like to
         make a request in private.  If you're interested in buying a system which helps
-        you manage FOI requests in secret, then <a href="<%= help_contact_path %>">contact us</a>.
+        you manage PAIA requests in secret, then <a href="<%= help_contact_path %>">contact us</a>.
       </p>
     </dd>
 
@@ -221,7 +214,7 @@
       Some requests were made before Okapi was created these 
       requests can be found here <%= link_to 'Pre 2018 Request Archive',
       "https://blog.okapi.org.za/request-archive-pre-2018-requests/"%>.
-          </dd>
+          We welcome any organisation sending us the PAIA requests they have done for inclusion in the archive.</dd>
 
 
     <% if AlaveteliConfiguration::enable_annotations %>
